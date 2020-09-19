@@ -50,7 +50,7 @@ public class quiz2 {
 					continue;
 				}
 			}
-			else if(User.equals("보")) {//사용자가 보를 입력했을,
+			else if(User.equals("보")) {//사용자가 보를 입력했을때,
 				if(str[n].equals("가위")) {//컴퓨터가 가위이면,
 					System.out.println("사용자 = "+User+", 컴퓨터 = "+Computer+" 사용자가 졌습니다.");
 					continue;
